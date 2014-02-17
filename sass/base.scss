@@ -1,0 +1,131 @@
+#cboxContent {
+  background: #000000;
+}
+
+.ui-tabs {
+  font-size:12px;
+} 
+
+.ui-tabs .ui-tabs-nav li a, .ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active a {
+    font-weight: bold;
+    font-size:12px;
+}
+
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  background: url("http://stmedia.startribune.com/images/ui-bg_glass_75_1x400.png") repeat-x scroll 50% 50% #BCA056;
+  border: 1px solid #D3D3D3;
+  color: #555555;
+  font-weight: normal;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+  background: url("http://stmedia.startribune.com/images/ui-bg_glass_65_1x400.png") repeat-x scroll 50% 50% #FFFFFF;
+  border: 1px solid #AAAAAA;
+  color: #212121;
+  font-weight: normal;
+}
+
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+  color: #ffffff;
+  text-shadow:2px 2px 4px #333333;
+  text-decoration: none;
+}
+
+
+.ui-state-active {
+background-color:#ffffff;
+
+}
+
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+  color: #111111;
+   text-shadow:none;
+  text-decoration: none;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+  padding: .5em .5em;
+}
+
+#tabs {
+  width:630px;
+}
+
+.cardItems {
+  width:630px;
+  display: inline-block;
+  margin-left: -12px;
+}
+
+#intro{
+    background: url(http://stmedia.startribune.com/images/CRintro.png) no-repeat;
+    height: 168px;
+    width: 304px;
+    float:left;
+    margin:10px 10px 30px 0;
+}
+
+#intro:hover {
+    background: url(http://stmedia.startribune.com/images/CRintro-bw.png)  no-repeat;
+}
+
+#floorText{
+    height: 168px;
+    width: 304px;
+    float:left;
+    margin:10px 10px 30px 0;
+}
+
+#rathskellar {
+    background: url(http://stmedia.startribune.com/images/CRRathskellar.png) no-repeat;
+    height: 168px;
+    width: 304px;
+    float:left;
+    margin:0 10px 10px 0;
+}
+
+#rathskellar:hover {
+    background: url(http://stmedia.startribune.com/images/CRRathskellar-bw.png)  no-repeat;
+}
+
+#supremeCourt {
+    background: url(http://stmedia.startribune.com/images/CRSupremeCourt.png) no-repeat;
+    height: 168px;
+    width: 304px;
+    float:left;
+    margin:0 10px 10px 0;
+}
+
+#supremeCourt:hover {
+    background: url(http://stmedia.startribune.com/images/CRSupremeCourt-bw.png)  no-repeat;
+}
+
+#hallways {
+    background: url(http://stmedia.startribune.com/images/CRhallways.png) no-repeat;
+    height: 168px;
+    width: 304px;
+    float:left;
+    margin:0 10px 10px 0;
+}
+
+#hallways:hover {
+    background: url(http://stmedia.startribune.com/images/CRhallways-bw.png)  no-repeat;
+}
+
+#pressOffices {
+    background: url(http://stmedia.startribune.com/images/CRpressOffices.png) no-repeat;
+    height: 168px;
+    width: 304px;
+    float:left;
+    margin:0 10px 10px 0;
+}
+
+#pressOffices:hover {
+    background: url(http://stmedia.startribune.com/images/CRpressOffices-bw.png)  no-repeat;
+}
+
+.ui-widget-content {
+    background: url("http://stmedia.startribune.com/images/ui-bg_flat_75_40x100.png") repeat-x scroll 50% 50% #ffffff;
+    border: 1px solid #666666;
+    color: #222222;
+}

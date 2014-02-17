@@ -1,0 +1,13 @@
+GENERATED_FILES = \
+
+LIBRARY_FILES = \
+
+
+all: $(GENERATED_FILES) $(LIBRARY_FILES)
+
+clean:
+	rm -rf build
+	rm -rf $(GENERATED_FILES) $(LIBRARY_FILES)
+
+
+
