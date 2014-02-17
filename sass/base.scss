@@ -1,3 +1,20 @@
+.clear { clear: both; }
+
+#capitol-image-wrapper {
+  position: relative;
+  height: 327px;
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+    width: 630px;
+    height: 327px;
+  }
+}
+
 #cboxContent {
   background: #000000;
 }
@@ -129,3 +146,4 @@ background-color:#ffffff;
     border: 1px solid #666666;
     color: #222222;
 }
+

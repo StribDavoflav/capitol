@@ -37,46 +37,79 @@
 
 
 <script type='text/javascript'>
-//<![CDATA[ 
+
+var duration = 600;
+var imageHeight = 327;
+var oldState = 0;
+var capitolImages = [];
+
 jQuery(window).load(function(){
-  var DBtabs = jQuery("#tabs").tabs({
-      activate: function( evt, ui ) {        
-          
-          console.log(ui);
-          var tab=ui.newTab.data("tab");
-          var path="http://stmedia.startribune.com/images/";
-          var imgsrc=path+tab+".png";
-          console.log("HIT"+imgsrc);
-          jQuery("#current").html('<img src="'+imgsrc+'">');
+  jQuery("#tabs").tabs({
+      activate: function( evt, ui ) {
+          var tab = ui.newTab.data("tab");
+          switchCapitolImage(tab);
           jQuery(".overlay").colorbox({iframe:true, innerWidth:960, innerHeight:600, scrolling: false});
       }
   })
   jQuery(".overlay").colorbox({iframe:true, innerWidth:960, innerHeight:600, scrolling: false});
+
+  for (var i = 0; i < 7; i++) {
+    capitolImages[i] = $('.capitol-image-' + i);
+  }
+  capitolImages[0].css({
+    opacity: 1
+  });
 });
-//]]>  
+
+function switchCapitolImage(newState) {
+  // Set the height of the new image to `0`, and make it full opacity
+  capitolImages[newState].css({
+    height: 0,
+    opacity: 1
+  });
+
+  // Animate the new image's height to the full height of the image
+  capitolImages[newState].animate({
+    height: imageHeight
+  }, duration, 'linear');
+
+  // Animate the old image's opacity to `0`.
+  capitolImages[oldState].animate({
+    opacity: 0
+  }, duration / 2, 'linear');
+
+  // Save the new state as the old state
+  oldState = newState;
+}
 
 </script>
 
-  
   <link rel="stylesheet" href="css/base.css" />
 </head>
 <body>
 
-
-
 <h1>2014-2-17-capitol-restoration</h1>
 
-<span id="current"><img src="http://stmedia.startribune.com/images/tabs-0.png"></span>
+<div id="capitol-image-wrapper">
+  <img class='capitol-image-0' src="http://stmedia.startribune.com/images/tabs-0.png">
+  <img class='capitol-image-1' src="http://stmedia.startribune.com/images/tabs-1.png">
+  <img class='capitol-image-2' src="http://stmedia.startribune.com/images/tabs-2.png">
+  <img class='capitol-image-3' src="http://stmedia.startribune.com/images/tabs-3.png">
+  <img class='capitol-image-4' src="http://stmedia.startribune.com/images/tabs-4.png">
+  <img class='capitol-image-5' src="http://stmedia.startribune.com/images/tabs-5.png">
+  <img class='capitol-image-6' src="http://stmedia.startribune.com/images/tabs-6.png">
+  <div class='clear'></div>
+</div>
 
 <div id="tabs">
     <ul>
-      <li data-tab="tabs-0"><a href="#tabs-0">intro</a></li>
-      <li data-tab="tabs-1"><a href="#tabs-1">Basement</a></li>
-      <li data-tab="tabs-2"><a href="#tabs-2">Ground Floor</a></li>
-      <li data-tab="tabs-3"><a href="#tabs-3">1st Floor</a></li>
-      <li data-tab="tabs-4"><a href="#tabs-4">2nd Floor</a></li>
-      <li data-tab="tabs-5"><a href="#tabs-5">3rd Floor</a></li>
-      <li data-tab="tabs-6"><a href="#tabs-6">Dome/Exterior</a></li>
+      <li data-tab="0"><a href="#tabs-0">intro</a></li>
+      <li data-tab="1"><a href="#tabs-1">Basement</a></li>
+      <li data-tab="2"><a href="#tabs-2">Ground Floor</a></li>
+      <li data-tab="3"><a href="#tabs-3">1st Floor</a></li>
+      <li data-tab="4"><a href="#tabs-4">2nd Floor</a></li>
+      <li data-tab="5"><a href="#tabs-5">3rd Floor</a></li>
+      <li data-tab="6"><a href="#tabs-6">Dome/Exterior</a></li>
     </ul>
 
 
