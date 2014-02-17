@@ -53,10 +53,12 @@ jQuery(window).load(function(){
   })
   jQuery(".overlay").colorbox({iframe:true, innerWidth:960, innerHeight:600, scrolling: false});
 
-  for (var i = 0; i < 7; i++) {
+  // From 0 to 6, save the jQuery image object in the `capitolImages` array
+  for (var i = 0; i <= 6; i++) {
     capitolImages[i] = $('.capitol-image-' + i);
   }
-  capitolImages[0].css({
+  // Set the initial image to full opacity
+  capitolImages[oldState].css({
     opacity: 1
   });
 });
