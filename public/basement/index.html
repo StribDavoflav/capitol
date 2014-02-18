@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Create a Parralax Website using Stellar.js</title>
+<title>BASEMENT RATHSKELLAR INDEX</title>
 
 <style type="text/css">
 /*
@@ -75,47 +75,104 @@ questions: http://www.webtype.com
 <script type="text/javascript" src="js/waypoints.min.js"></script>
 <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 
-	<link rel="stylesheet" type="text/css" media="screen" href="http://www.startribune.com/includes/RedesignadStyles011108.css?cache=2" />
 	<link rel="stylesheet" href="http://www.startribune.com/includes/style.css?608" type="text/css" />
 
-<style>
+	<style>
+		.button {
+			display: block;
+			width: 50px;
+			height: 50px;
+			position: absolute;
+			bottom: 390px;
+			left: 75px;
+			background-color: #333333;
+			background-image: url(images/arrow.png);
+			}
 
-.slideno {
-	bottom:70px;
-	}
+		.nextChapter {
+			font-family: Popular, sans-serif;
+			text-align:center;
+			display: block;
+			width: 198px;
+			position: absolute;
+			bottom: 330px;
+			left: 0px;
+			background-color:rgba(0,0,0,0.1);
+			color:#000000;
+			font-size:13px;
+			padding:5px 0;
+			font-weight:bold;
+			}
 
-#slide1, #slide2, #slide3, #slide4 {
-	background: #aaaaaa;
-}
+		.slideno {
+			bottom:70px;
+			}
 
-</style>
+		#slide1, #slide2, #slide3, #slide4 {
+			background: #aaaaaa;
+			background-image: url(http://stmedia.startribune.com/images/capitolBackground.png);
+			}
+
+		.navigation {
+			top:0px;
+			font-family: Popular, sans-serif;
+			}
+
+		.navigation h2{
+			font-size:18px;
+			margin:20px 0 10px 5px;
+			}
+
+		.navigation li:hover, .active {
+			font-size: 14px!important;
+			cursor: pointer;
+			width: 178px!important;
+			line-height: 30px;
+			}
+
+		.navigation li.hover {
+			font-size:14px;
+			}
+		.navigation li.active {
+			color:#ffffff;
+			font-size:14px;
+			}
+
+		.navigation li {
+			color: #a17d1a;
+			display: block;
+			padding: 0 10px;
+			line-height: 30px;
+			margin-bottom: 2px;
+			font-weight: bold;
+			-webkit-transition: all .2s ease-in-out;
+			border-bottom: 1px solid black;
+			text-align: left;
+			width: 178px;
+			background-color:rgba(0,0,0,0.6);
+			font-size:13px;
+			font-weight:bold;
+			}
+	</style>
+
 </head>
 
 <body>
 
 	<ul class="navigation">
-		<li data-slide="1">Slide 1</li>
-		<li data-slide="2">Slide 2</li>
-		<li data-slide="3">Slide 3</li>
-		<li data-slide="4">Slide 4</li>
+		<h2>The RATHSKELLAR</h2>
+		<li data-slide="1">Photo&nbsp;Gallery</li>
+		<li data-slide="2">Before&nbsp;/&nbsp;After</li>
+		<li data-slide="3">Panorama</li>
+		<li data-slide="4">Magnify&nbsp;Glass</li>
 	</ul>
 
 
 
-          
-	
-
 	<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
-	<!--begin -->
 
-<!-- 	<iframe id="gallery1" class="inlineProjectGallery" width="960px" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.startribune.com/templates/GalleryPuller?id=245855221&amp;w=960&amp;h=500&amp;thumbRowWidth=790" border="0"></iframe> -->
+		<iframe style="float:right" id="gallery1" class="inlineProjectGallery" width="825px" height="620px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.startribune.com/templates/largeGalleryViewer?id=245855221&w=825&h=550" border="0"></iframe> 
 
-
-<iframe id="gallery1" class="inlineProjectGallery" width="960px" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.startribune.com/components/245855221.html" border="0"></iframe> 
-
-
-            <!-- end -->
-            <span class="slideno">PHOTO GALLERY</span>
 		<a class="button" data-slide="2" title=""></a>
 
 	</div><!--End Slide 1-->
@@ -123,22 +180,9 @@ questions: http://www.webtype.com
 
 
 	<div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
-		<div class="wrapper">
+		
+		<iframe style="float:right" src="http://ww2.startribune.com/projects/politics/capitol-reno/beforeAfters/press1/index.html" width="825px" height="620px" frameborder="0" marginheight="0" marginwidth="0" border="0" scrolling="no"></iframe>
 
-			<!-- <img src="images/slide2/blur-ball.png" data-stellar-ratio="3" data-stellar-vertical-offset="-55"alt="">
-			<img src="images/slide2/blur-ball-big.png" data-stellar-ratio="1" data-stellar-vertical-offset="-102"alt="">
-			<img src="images/slide2/focus-ball.png" data-stellar-ratio="1.5" data-stellar-vertical-offset="-53"alt="">
-			<img src="images/slide2/small-ball.png" data-stellar-ratio="2.7" data-stellar-vertical-offset="-25"alt="">
-			<img src="images/slide2/blur-ball.png" data-stellar-ratio="3" data-stellar-vertical-offset="-55"alt="">
-			<img src="images/slide2/blur-ball-big.png" data-stellar-ratio="1" data-stellar-vertical-offset="-102"alt="">
-			<img src="images/slide2/focus-ball.png" data-stellar-ratio="1.5" data-stellar-vertical-offset="-53"alt="">
-			<img src="images/slide2/small-ball.png" data-stellar-ratio="2.7" data-stellar-vertical-offset="-25"alt=""> -->	
-
-
-<iframe src="http://ww2.startribune.com/davoflav/potatoe102513/index.html" width="960" height="620" frameborder="0" border="0" scrolling="no"></iframe>
-		</div>
-
-		<span class="slideno">BEFORE / AFTER</span>
 		<a class="button" data-slide="3" title=""></a>
 
 	</div><!--End Slide 2-->
@@ -149,35 +193,22 @@ questions: http://www.webtype.com
 
 	<div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
 		
+		<iframe style="float:right" src="http://ww2.startribune.com/projects/politics/capitol-reno/panos/rotunda/output/08-Rotunda.html" width="825px" height="620px" frameborder="0" marginheight="0" marginwidth="0" border="0" scrolling="no"></iframe>
 
-		<iframe src="http://ww2.startribune.com/huttj/governorTest/08-GovernorsReceptionRoom2DB.html" width="960" height="600" frameborder="0" border="0" scrolling="no"></iframe>
-
-
-		<span class="slideno">PANORAMA</span>
 		<a class="button" data-slide="4" title=""></a>
 
 	</div><!--End Slide 3-->
 
 
 
-
-
-
 	<div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0">
 		
-<iframe src="http://apps.startribune.com/news/features/sochi-poster/" width="960" height="600" frameborder="0" border="0" scrolling="no"></iframe>
+		<iframe style="float:right" src="http://apps.startribune.com/news/features/sochi-poster/" width="825px" height="620px" frameborder="0" marginheight="0" marginwidth="0" border="0" scrolling="no"></iframe>
 
-<span class="slideno">MAGNIFY</span>
+		<a class="button" href="http://www.startribune.com" target="this" title=""></a>
+		<div class="nextChapter"><b>NEXT UP:</b><br>Supreme Court Dining Room</div>
 
 	</div><!--End Slide 4-->
-
-
-			
-
-
-
-
-
 
 
 

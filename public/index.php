@@ -2,39 +2,22 @@
 <html>
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <title>2014-2-17-capitol-restoration</title>
+  <title>MAIN INDEX</title>
   
 <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
 <link rel="stylesheet" href="http://www.startribune.com/includes/style.css?607" type="text/css" />
 
-
-
-
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
-
 <script src="http://www.startribune.com/includes/globalJquery.js?20140204" type="text/javascript" language="javascript"></script>
-   
 <script src="http://www.startribune.com/includes/jquery.colorbox-1.4.6-min.js" type="text/javascript" language="javascript"></script>
+<style>
+#cboxClose {
+	/*background: url(http://stmedia.startribune.com/designimages/btn_close_invert.png)*/
+	}
 
- <!--  <link rel="stylesheet" type="text/css" href="http://jsfiddle.net//css/result-light.css"> -->
-
-
-    <!--<link rel="stylesheet" type="text/css" href="http://jsfiddle.net/css/normalize.css">
-  
-  <link rel="stylesheet" type="text/css" media="screen" href="http://dev.www.startribune.com/includes/RedesignadStyles011108.css?cache=2" />
-  <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="http://www.startribune.com/includes/style.css?607" type="text/css" />
-
-  <script type='text/javascript' src='http://code.jquery.com/jquery-1.9.1.js'></script>
-  <script type="text/javascript" src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
-  <script type="text/javascript" src="scripts/jquery.colorbox-min.js"></script>
-<script type="text/javascript" src="http://www.startribune.com/includes/jquery.colorbox-min.js?v1.3.15&c=y"></script>
-  <script src="http://www.startribune.com/includes/globalJquery.js?20140204" type="text/javascript" language="javascript"></script>-->
-   
-
-
+	background
+</style>
 
 <script type='text/javascript'>
 
@@ -48,10 +31,10 @@ jQuery(window).load(function(){
       activate: function( evt, ui ) {
           var tab = ui.newTab.data("tab");
           switchCapitolImage(tab);
-          jQuery(".overlay").colorbox({iframe:true, innerWidth:960, innerHeight:600, scrolling: false});
+          jQuery(".overlay").colorbox({iframe:true, innerWidth:1024, innerHeight:620, scrolling: false});
       }
   })
-  jQuery(".overlay").colorbox({iframe:true, innerWidth:960, innerHeight:600, scrolling: false});
+  jQuery(".overlay").colorbox({iframe:true, innerWidth:1024, innerHeight:620, scrolling: false});
 
   // From 0 to 6, save the jQuery image object in the `capitolImages` array
   for (var i = 0; i <= 6; i++) {
@@ -116,35 +99,31 @@ function switchCapitolImage(newState) {
 
 
         <div id="tabs-0">
-          <div class="cardItems">
-                  <div id="intro">
-                    <a href="http://www.startribune.com/components/242933061.html" class="overlay cboxElement">
-                      <img src="http://stmedia.startribune.com/designimages/space.gif" width='304' height='168'>  
-                    </a>
-                  </div>
+			<div class="cardItems">
+				<div id="intro">
+					<a href="http://www.startribune.com/components/242933061.html" class="overlay cboxElement">
+						<img src="http://stmedia.startribune.com/designimages/space.gif" width='304' height='168'>  
+					</a>
+				</div>
 
-                  <div id="floorText">
-                    <h3>INTRO </h3>
-                    <p>Welcome to the project, here is why you are going to like it.</p>
-                  </div>
-          </div>
+				<div id="floorText">
+					<h3>INTRO </h3>
+					<p>Welcome to the project, here is why you are going to like it.</p>
+				</div>
+			</div>
         </div>
+
+
 
 
         <div id="tabs-1">
                    
 
                 <div class="cardItems">
-                  <div id="intro">
-                    <a href="http://www.startribune.com/components/242933061.html" class="overlay cboxElement">
-                      <img src="http://stmedia.startribune.com/designimages/space.gif" width='304' height='168'>  
-                    </a>
-                  </div>
-
-                  <div id="floorText">
-                    <h3>BASEMENT </h3>
-                    <p>The floor has been under reconstruction since 2010 and is about 45% completed. An estimated $12 million has already been spent and another $10 million is budgeted for completion.</p>
-                  </div>
+                 
+                    <h3>Starting at the bottom</h3>
+                    <p style="padding-bottom:20px">The floor has been under reconstruction since 2010 and is about 45% completed. An estimated $12 million has already been spent and another $10 million is budgeted for completion.</p>
+                  
 
                   <div id="rathskellar">
                     <a href="basement/index.html" class="overlay cboxElement">
