@@ -98,63 +98,81 @@ function switchCapitolImage(newState) {
     </ul>
 
 
-        <div id="tabs-0">
-			<div class="cardItems">
-				<div id="intro">
-					<a href="http://www.startribune.com/components/242933061.html" class="overlay cboxElement">
-						<img src="http://stmedia.startribune.com/designimages/space.gif" width='304' height='168'>  
-					</a>
-				</div>
-
-				<div id="floorText">
-					<h3>INTRO </h3>
-					<p>Welcome to the project, here is why you are going to like it.</p>
-				</div>
+    <div id="tabs-0">
+		<div class="cardItems">
+			<div id="intro">
+				<a href="http://www.startribune.com/components/242933061.html" class="overlay cboxElement">
+					<img src="http://stmedia.startribune.com/designimages/space.gif" width='304' height='168'>  
+				</a>
 			</div>
-        </div>
+
+			<div id="floorText">
+				<h3>INTRO </h3>
+				<p>Welcome to the project, here is why you are going to like it.</p>
+			</div>
+		</div>
+    </div>
 
 
 
 
-        <div id="tabs-1">
-                   
+    <div id="tabs-1">
+               
 
-                <div class="cardItems">
+            <div class="cardItems">
+             
+                <h3>Starting at the bottom</h3>
+                <p style="padding-bottom:20px">The floor has been under reconstruction since 2010 and is about 45% completed. An estimated $12 million has already been spent and another $10 million is budgeted for completion.</p>
+              
+
+              <div id="rathskellar">
+                <a href="basement/rathskeller.html" class="overlay cboxElement">
+                  <img src="http://stmedia.startribune.com/designimages/space.gif" width='304' height='168'>  
+                </a>
+              </div>
+
+              <div id="supremeCourt">
+                <a href="basement/supremeCourtDining.html" class="overlay cboxElement">
+                  <img src="http://stmedia.startribune.com/designimages/space.gif" width='304' height='168'>  
+                </a>
+              </div>
+
+              <div id="hallways">
+                <a href="basement/hallways.html" class="overlay cboxElement">
+                  <img src="http://stmedia.startribune.com/designimages/space.gif" width='304' height='168'>  
+                </a>
+              </div>
+
+              <div id="pressOffices">
+                <a href="basement/pressOffices.html" class="overlay cboxElement">
+                  <img src="http://stmedia.startribune.com/designimages/space.gif" width='304' height='168'>  
+                </a>
+              </div>
+            </div>           
+             
+    </div>
+
+    <div id="tabs-2">
+        <div class="cardItems">
                  
-                    <h3>Starting at the bottom</h3>
+                    <h3>Ground Floor</h3>
                     <p style="padding-bottom:20px">The floor has been under reconstruction since 2010 and is about 45% completed. An estimated $12 million has already been spent and another $10 million is budgeted for completion.</p>
                   
 
                   <div id="rathskellar">
-                    <a href="basement/index.html" class="overlay cboxElement">
+                    <a href="basement/rathskeller.html" class="overlay cboxElement">
                       <img src="http://stmedia.startribune.com/designimages/space.gif" width='304' height='168'>  
                     </a>
                   </div>
 
                   <div id="supremeCourt">
-                    <a href="http://www.startribune.com/components/242933061.html" class="overlay cboxElement">
+                    <a href="basement/supremeCourtDining.html" class="overlay cboxElement">
                       <img src="http://stmedia.startribune.com/designimages/space.gif" width='304' height='168'>  
                     </a>
                   </div>
 
-                  <div id="hallways">
-                    <a href="http://www.startribune.com/components/242933061.html" class="overlay cboxElement">
-                      <img src="http://stmedia.startribune.com/designimages/space.gif" width='304' height='168'>  
-                    </a>
-                  </div>
-
-                  <div id="pressOffices">
-                    <a href="http://www.startribune.com/components/242933061.html" class="overlay cboxElement">
-                      <img src="http://stmedia.startribune.com/designimages/space.gif" width='304' height='168'>  
-                    </a>
-                  </div>
+                
                 </div>           
-             
-
-    </div>
-    <div id="tabs-2">
-        <p>Ground Floor<br>
-        blah<br></p>
     </div>
     <div id="tabs-3">
         <p>First Floor</p>

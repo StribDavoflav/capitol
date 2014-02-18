@@ -30,13 +30,13 @@ html,body{
 	width:100px!important;
 }
 .envatologo{
-position:fixed;
-top:50%;
-left:50%;
-width:446px;
-margin-top:-41px;
-margin-left:-223px;
-z-index:1;
+	position:fixed;
+	top:50%;
+	left:50%;
+	width:446px;
+	margin-top:-41px;
+	margin-left:-223px;
+	z-index:1;
 }
 .slide{
 	background-attachment: fixed;
