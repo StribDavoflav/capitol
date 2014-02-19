@@ -1,0 +1,107 @@
+@font-face {
+  font-family: Popular;
+  src: url("http://apps.startribune.com/fonts/popular/regular/851caebd-2961-4fd9-a500-2b38452b1ec9-2.eot?") format("embedded-opentype"), url("http://apps.startribune.com/fonts/popular/regular/851caebd-2961-4fd9-a500-2b38452b1ec9-3.woff") format("woff"), url("http://apps.startribune.com/fonts/popular/regular/851caebd-2961-4fd9-a500-2b38452b1ec9-1.ttf") format("truetype"), url("http://apps.startribune.com/fonts/popular/regular/851caebd-2961-4fd9-a500-2b38452b1ec9-4.svg#web") format("svg");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Popular-medium;
+  src: url("http://apps.startribune.com/fonts/popular/medium/96c3bd87-fed5-419d-a1cf-d947b17d6ab7-2.eot?") format("embedded-opentype"), url("http://apps.startribune.com/fonts/popular/medium/96c3bd87-fed5-419d-a1cf-d947b17d6ab7-3.woff") format("woff"), url("http://apps.startribune.com/fonts/popular/medium/96c3bd87-fed5-419d-a1cf-d947b17d6ab7-1.ttf") format("truetype"), url("http://apps.startribune.com/fonts/popular/medium/96c3bd87-fed5-419d-a1cf-d947b17d6ab7-4.svg#web") format("svg");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Popular-bold;
+  src: url("http://apps.startribune.com/fonts/popular/bold/9a23c9ca-82fe-417a-9070-5f5daeaf6214-2.eot?") format("embedded-opentype"), url("http://apps.startribune.com/fonts/popular/bold/9a23c9ca-82fe-417a-9070-5f5daeaf6214-3.woff") format("woff"), url("http://apps.startribune.com/fonts/popular/bold/9a23c9ca-82fe-417a-9070-5f5daeaf6214-1.ttf") format("truetype"), url("http://apps.startribune.com/fonts/popular/bold/9a23c9ca-82fe-417a-9070-5f5daeaf6214-4.svg#web") format("svg");
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* line 31, ../../sass/parallax.scss */
+.button {
+  display: block;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 391px;
+  left: 75px;
+  background-color: #333333;
+}
+
+/* line 41, ../../sass/parallax.scss */
+.nextChapter {
+  font-family: Popular, sans-serif;
+  text-align: center;
+  display: block;
+  width: 198px;
+  position: absolute;
+  bottom: 341px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #000000;
+  font-size: 13px;
+  padding: 5px 0;
+  font-weight: bold;
+}
+
+/* line 56, ../../sass/parallax.scss */
+.slideno {
+  bottom: 70px;
+}
+
+/* line 60, ../../sass/parallax.scss */
+#slide1, #slide2, #slide3, #slide4, #slide5 {
+  background: #aaaaaa;
+  background-image: url(http://stmedia.startribune.com/images/capitolBackground.png);
+}
+
+/* line 65, ../../sass/parallax.scss */
+.navigation {
+  top: 0px;
+  font-family: Popular, sans-serif;
+  width: 188px;
+}
+
+/* line 71, ../../sass/parallax.scss */
+.navigation h2 {
+  font-size: 18px;
+  margin: 20px 0 10px 5px;
+}
+
+/* line 76, ../../sass/parallax.scss */
+.navigation li:hover, .active {
+  font-size: 14px !important;
+  cursor: pointer;
+  width: 178px !important;
+  line-height: 30px;
+}
+
+/* line 83, ../../sass/parallax.scss */
+.navigation li.hover {
+  font-size: 14px;
+}
+
+/* line 86, ../../sass/parallax.scss */
+.navigation li.active {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+/* line 91, ../../sass/parallax.scss */
+.navigation li {
+  color: #a17d1a;
+  display: block;
+  padding: 0 10px;
+  line-height: 30px;
+  margin-bottom: 2px;
+  font-weight: bold;
+  -webkit-transition: all .2s ease-in-out;
+  border-bottom: 1px solid black;
+  text-align: left;
+  width: 178px;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 13px;
+  font-weight: bold;
+}
