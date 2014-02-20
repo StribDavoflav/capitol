@@ -35,8 +35,21 @@
       position: absolute;
       bottom: 391px;
       left: 75px;
-      background-color: #333333;
+      background-color:rgba(0,0,0,0.5);
+      background-image: url(http://stmedia.startribune.com/designimages/downArrow.png);
       }
+
+ .buttonFoo {
+      display: block;
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      bottom: 391px;
+      left: 75px;
+      background-color:rgba(0,0,0,0.5);
+      background-image: url(http://stmedia.startribune.com/designimages/downArrow.png);
+      }
+
 
     .nextChapter {
       font-family: Popular, sans-serif;
@@ -50,7 +63,6 @@
       color:#000000;
       font-size:13px;
       padding:5px 0;
-      font-weight:bold;
       }
 
     .slideno {
@@ -70,8 +82,18 @@
 
     .navigation h2{
       font-size:18px;
-      margin:20px 0 10px 5px;
+      margin:5px 0 10px 5px;
+      line-height: normal;
+      font-family: Popular-bold
       }
+
+    .navigation h3{
+      font-size:14px;
+      margin:15px 0 5px 5px;
+      line-height: normal;
+      text-decoration: underline;
+      }
+
 
     .navigation li:hover, .active {
       font-size: 14px!important;
@@ -83,6 +105,7 @@
     .navigation li.hover {
       font-size:14px;
       }
+
     .navigation li.active {
       color:#ffffff;
       font-size:14px;
@@ -94,12 +117,11 @@
       padding: 0 10px;
       line-height: 30px;
       margin-bottom: 2px;
-      font-weight: bold;
+      font-weight: normal;
       -webkit-transition: all .2s ease-in-out;
       border-bottom: 1px solid black;
       text-align: left;
       width: 178px;
-      background-color:rgba(0,0,0,0.6);
+      background-color:rgba(0,0,0,0.8);
       font-size:13px;
-      font-weight:bold;
       }
