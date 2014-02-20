@@ -44,7 +44,7 @@
       width: 50px;
       height: 50px;
       position: absolute;
-      bottom: 391px;
+      bottom: 85px;
       left: 75px;
       background-color:rgba(0,0,0,0.5);
       background-image: url(http://stmedia.startribune.com/designimages/downArrow.png);
@@ -57,7 +57,7 @@
       display: block;
       width: 198px;
       position: absolute;
-      bottom: 341px;
+      bottom: 40px;
       left: 0px;
       background-color:rgba(0,0,0,0.1);
       color:#000000;
@@ -73,6 +73,7 @@
       background: #aaaaaa;
       background-image: url(http://stmedia.startribune.com/images/capitolBackground.png);
       }
+
 
     .navigation {
       top:0px;
@@ -125,3 +126,16 @@
       background-color:rgba(0,0,0,0.8);
       font-size:13px;
       }
+
+    /******************************
+     SLIDES
+    *******************************/
+    #slide1 .leftNavText, #slide2 .leftNavText, #slide3 .leftNavText, #slide4 .leftNavText, #slide5 .leftNavText, #slide6 .leftNavText{
+        position:absolute;
+      top: 350px;
+      left: 10px;
+      width:170px;
+      font-size:14px;
+      color:#666666;
+
+    }

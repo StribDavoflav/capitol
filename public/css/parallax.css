@@ -37,7 +37,7 @@
   width: 50px;
   height: 50px;
   position: absolute;
-  bottom: 391px;
+  bottom: 85px;
   left: 75px;
   background-color: rgba(0, 0, 0, 0.5);
   background-image: url(http://stmedia.startribune.com/designimages/downArrow.png);
@@ -50,7 +50,7 @@
   display: block;
   width: 198px;
   position: absolute;
-  bottom: 341px;
+  bottom: 40px;
   left: 0px;
   background-color: rgba(0, 0, 0, 0.1);
   color: #000000;
@@ -69,14 +69,14 @@
   background-image: url(http://stmedia.startribune.com/images/capitolBackground.png);
 }
 
-/* line 77, ../../sass/parallax.scss */
+/* line 78, ../../sass/parallax.scss */
 .navigation {
   top: 0px;
   font-family: Popular, sans-serif;
   width: 188px;
 }
 
-/* line 83, ../../sass/parallax.scss */
+/* line 84, ../../sass/parallax.scss */
 .navigation h2 {
   font-size: 18px;
   margin: 5px 0 10px 5px;
@@ -84,7 +84,7 @@
   font-family: Popular-bold;
 }
 
-/* line 90, ../../sass/parallax.scss */
+/* line 91, ../../sass/parallax.scss */
 .navigation h3 {
   font-size: 14px;
   margin: 15px 0 5px 5px;
@@ -92,7 +92,7 @@
   text-decoration: underline;
 }
 
-/* line 98, ../../sass/parallax.scss */
+/* line 99, ../../sass/parallax.scss */
 .navigation li:hover, .active {
   font-size: 14px !important;
   cursor: pointer;
@@ -100,18 +100,18 @@
   line-height: 30px;
 }
 
-/* line 105, ../../sass/parallax.scss */
+/* line 106, ../../sass/parallax.scss */
 .navigation li.hover {
   font-size: 14px;
 }
 
-/* line 109, ../../sass/parallax.scss */
+/* line 110, ../../sass/parallax.scss */
 .navigation li.active {
   color: #ffffff;
   font-size: 14px;
 }
 
-/* line 114, ../../sass/parallax.scss */
+/* line 115, ../../sass/parallax.scss */
 .navigation li {
   color: #a17d1a;
   display: block;
@@ -125,4 +125,17 @@
   width: 178px;
   background-color: rgba(0, 0, 0, 0.8);
   font-size: 13px;
+}
+
+/******************************
+ SLIDES
+*******************************/
+/* line 133, ../../sass/parallax.scss */
+#slide1 .leftNavText, #slide2 .leftNavText, #slide3 .leftNavText, #slide4 .leftNavText, #slide5 .leftNavText, #slide6 .leftNavText {
+  position: absolute;
+  top: 350px;
+  left: 10px;
+  width: 170px;
+  font-size: 14px;
+  color: #666666;
 }

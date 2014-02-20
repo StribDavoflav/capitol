@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <title>MAIN INDEX</title>
+  <title>MN State Capitol Tour</title>
 
  <?php readfile('http://www.startribune.com/templates/vh?vid=245841741&sosp=/politics'); ?>
 
