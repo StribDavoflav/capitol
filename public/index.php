@@ -1,6 +1,7 @@
 
 
- <?php readfile('http://www.startribune.com/templates/vh?vid=245841741&sosp=/politics&h=5'); ?>
+ <?php readfile('http://www.startribune.com/templates/vh?vid=245841741&sosp=/politics&h=6
+ '); ?>
 
 
 <!-- <link rel="stylesheet" href="http://www.startribune.com/includes/style.css?607" type="text/css" /> -->
@@ -37,7 +38,7 @@
       <li data-tab="3"><a href="#tabs-3">1st Floor</a></li>
       <li data-tab="4"><a href="#tabs-4">2nd Floor</a></li>
       <li data-tab="5"><a href="#tabs-5">3rd Floor</a></li>
-      <li data-tab="6"><a href="#tabs-6">Dome/Exterior</a></li>
+      <li data-tab="6"><a href="#tabs-6">Exterior</a></li>
     </ul>
 
 
