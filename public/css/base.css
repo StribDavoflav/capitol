@@ -331,8 +331,8 @@
 }
 
 /* line 298, ../../sass/base.scss */
-#lionsHead {
-  background: url(http://stmedia.startribune.com/images/CRlionsHead.png) no-repeat;
+#historical {
+  background: url(http://stmedia.startribune.com/images/CRhistorical_sprite.png) no-repeat;
   background-position: 0px 0px;
   height: 168px;
   width: 304px;
@@ -341,7 +341,7 @@
 }
 
 /* line 307, ../../sass/base.scss */
-#lionsHead:hover {
+#historical:hover {
   background-position: 0px -168px;
 }
 
