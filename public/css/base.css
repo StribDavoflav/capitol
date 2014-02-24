@@ -237,7 +237,7 @@
 }
 
 /* line 216, ../../sass/base.scss */
-#two-rotunda {
+#one-rotunda {
   background: url(http://stmedia.startribune.com/images/CR2-rotunda.png) no-repeat;
   background-position: 0px 0px;
   height: 168px;
@@ -247,7 +247,7 @@
 }
 
 /* line 225, ../../sass/base.scss */
-#two-rotunda:hover {
+#one-rotunda:hover {
   background: url(http://stmedia.startribune.com/images/CR2-rotunda.png) no-repeat;
   background-position: 0px -168px;
 }

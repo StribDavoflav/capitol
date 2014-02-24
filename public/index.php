@@ -38,7 +38,7 @@
       <li data-tab="3"><a href="#tabs-3">1st Floor</a></li>
       <li data-tab="4"><a href="#tabs-4">2nd Floor</a></li>
       <li data-tab="5"><a href="#tabs-5">3rd Floor</a></li>
-      <li data-tab="6"><a href="#tabs-6">Exterior</a></li>
+      <li data-tab="6"><a href="#tabs-6">Dome/Exterior</a></li>
     </ul>
 
 
@@ -48,16 +48,17 @@
 			<h1 style="visibility:hidden;position:absolute;top:-2000px;left:-2000px;">MINNESOTA STATECAPTIOL TOUR</h1>
 			<img style="display:block;margin:24px auto;" src="http://stmedia.startribune.com/designimages/capitolHead.png">
 			
-			<iframe frameborder="0" src="http://www.startribune.com/video/237186261.html?embed=true&load_location=Article&article_title=Northern+Lights+2013&article_author=Staff&embed_site=www.startribune.com&section_id=760629&no_ad=true&section_name=Local" name="myspot" scrolling="no" horizontalscrolling="no" allowTransparency="true" verticalscrolling="no" style="border:none 0;width:524px;height:295px;margin:24px auto;display:block;"></iframe>
+			<iframe frameborder="0" src="http://www.startribune.com/video/246599901.html?embed=true&load_location=Article&article_title=Northern+Lights+2013&article_author=Staff&embed_site=www.startribune.com&section_id=760629&no_ad=true&section_name=Local" name="myspot" scrolling="no" horizontalscrolling="no" allowTransparency="true" verticalscrolling="no" style="border:none 0;width:524px;height:295px;margin:24px auto;display:block;"></iframe>
 			
 			<p class="byline">Photographs by Glen Stubbe and David Brewster</p>
 			<p class="byline" style="margin-bottom:24px;">Text by Rachel E. Stassen-Berger</p>
 			
-			<p class="body"><img src="dome.png" class="dropDome">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse imperdiet sodales massa vitae hendrerit. Curabitur interdum ante nec sapien lacinia viverra. Integer aliquam nisi nibh, at convallis purus fermentum vel. Phasellus vitae suscipit ipsum, in condimentum tellus. Integer tincidunt sapien volutpat elit pretium egestas. Suspendisse eget leo ante. Pellentesque ultrices id nibh vitae aliquam. Etiam sit amet nulla interdum, rhoncus dui sit amet, placerat dui. Pellentesque lacinia fringilla velit, tempus faucibus purus laoreet faucibus. Donec fermentum gravida vestibulum. Nullam non libero in justo egestas iaculis et at velit. Sed eu arcu rutrum enim molestie dapibus eu eu nunc. Aliquam malesuada lacinia ligula vulputate vestibulum. Cras et euismod elit. Aliquam iaculis est vitae turpis posuere interdum. Nam ut nisl orci.</p>
-			
-			<p class="body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse imperdiet sodales massa vitae hendrerit. Curabitur interdum ante nec sapien lacinia viverra. Integer aliquam nisi nibh, at convallis purus fermentum vel. Phasellus vitae suscipit ipsum, in condimentum tellus. Integer tincidunt sapien volutpat elit pretium egestas. Suspendisse eget leo ante. Pellentesque ultrices id nibh vitae aliquam. Etiam sit amet nulla interdum, rhoncus dui sit amet, placerat dui. Pellentesque lacinia fringilla velit, tempus faucibus purus laoreet faucibus. Donec fermentum gravida vestibulum. Nullam non libero in justo egestas iaculis et at velit. Sed eu arcu rutrum enim molestie dapibus eu eu nunc. Aliquam malesuada lacinia ligula vulputate vestibulum. Cras et euismod elit. Aliquam iaculis est vitae turpis posuere interdum. Nam ut nisl orci.</p>
-			
-			<p class="body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse imperdiet sodales massa vitae hendrerit. Curabitur interdum ante nec sapien lacinia viverra. Integer aliquam nisi nibh, at convallis purus fermentum vel. Phasellus vitae suscipit ipsum, in condimentum tellus. Integer tincidunt sapien volutpat elit pretium egestas. Suspendisse eget leo ante. Pellentesque ultrices id nibh vitae aliquam. Etiam sit amet nulla interdum, rhoncus dui sit amet, placerat dui. Pellentesque lacinia fringilla velit, tempus faucibus purus laoreet faucibus. Donec fermentum gravida vestibulum. Nullam non libero in justo egestas iaculis et at velit. Sed eu arcu rutrum enim molestie dapibus eu eu nunc. Aliquam malesuada lacinia ligula vulputate vestibulum. Cras et euismod elit. Aliquam iaculis est vitae turpis posuere interdum. Nam ut nisl orci.</p>
+			<p class="body"><img src="dome.png" class="dropDome">For the next three years, the discordant sounds of construction will join the echoes of citizens’ rallying voices, lawmakers’ aye and nay votes and awe-inspired visitors’ gasps in the Minnesota Capitol.
+</p><p class="body">The century-old building is undergoing what is to be a $272 million renovation. The work will restore historic features, add visitor space and bring the long-suffering mechanical structures into the modern era. As part of the overhaul, the exterior stone will be repaired to avoid heavy pieces of marble dropping on Minnesotans below and allow the detailed work to shine again.
+</p><p class="body">Opened in 1905, the Capitol now hosts about 250,000 visitors of all stripes every year. Some come to admire architect Cass Gilbert’s Beaux-Arts-inspired 1905 marble masterpiece and the art inside. Others arrive to tell their lawmakers’ of their wishes. And others, voted in by the state’s citizens, come to govern.
+</p><p class="body">All will experience the four-year construction project on “People’s Building” and its results. While the building will be open during construction, the basement of the building is already a maze of plywood walls. After construction, it will become show place for visitors. At some point during the renovation, the governor and the attorney general will have to move out to allow for work in the building. They are slated to return when the work is done.
+</p><p class="body">The murals on the walls, the decorative paintings and chipped paint will be repaired and restored. New signage, more dining space, glass-front elevators and prominent information center will be added. Importantly, more and improved restrooms will also add to the visitor experience.
+</p><p class="body">Follow along as we explore the Capitol as it now stands, the Capitol under construction and hints of what is to be.</p>
 		
 <style type="text/css">
 	.pw-widget .pw-button-googleplus .pw-icon {
@@ -191,6 +192,13 @@
 				</a>
 			</div>
 
+			<div id="one-rotunda">
+				<a href="first-floor/rotunda.html" class="overlay cboxElement">
+					<img src="http://stmedia.startribune.com/designimages/space.gif" width='304' height='168'>  
+				</a>
+			</div>
+
+
 		</div>           
     </div>
 
@@ -215,12 +223,6 @@
 
 			<div id="two-senate">
 				<a href="second-floor/senate.html" class="overlay cboxElement">
-					<img src="http://stmedia.startribune.com/designimages/space.gif" width='304' height='168'>  
-				</a>
-			</div>
-
-			<div id="two-rotunda">
-				<a href="second-floor/rotunda.html" class="overlay cboxElement">
 					<img src="http://stmedia.startribune.com/designimages/space.gif" width='304' height='168'>  
 				</a>
 			</div>
@@ -288,11 +290,7 @@
 				</a>
 			</div>
 
-			<div id="lionsHead">
-				<a href="dome-exterior/lion.html" class="overlay cboxElement">
-					<img src="http://stmedia.startribune.com/designimages/space.gif" width='304' height='168'>  
-				</a>
-			</div>
+			
 
 		</div>           
     </div>
