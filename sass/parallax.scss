@@ -92,7 +92,7 @@
       font-size:14px;
       margin:15px 0 5px 5px;
       line-height: normal;
-      text-decoration: underline;
+      text-decoration: none;
       }
 
 
@@ -139,3 +139,7 @@
       color:#666666;
 
     }
+
+    #tabs{display:none;margin-top:12px;}
+#tabs.ui-tabs{display:block;}
+#capitol-image-wrapper{background:#fff;}

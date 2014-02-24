@@ -43,7 +43,6 @@
 }
 
 #intro:hover {
-    background: url(http://stmedia.startribune.com/images/CRintro_sprite.png)  no-repeat;
     background-position:0px 168px;
 }
 
@@ -293,7 +292,6 @@
 }
 
 #exteriorStone:hover {
-    background: url(http://stmedia.startribune.com/images/CRexterior_sprite.png)  no-repeat;
     background-position:0px -168px;
 }
 
@@ -307,7 +305,6 @@
 }
 
 #lionsHead:hover {
-    background: url(http://stmedia.startribune.com/images/CRlionsHead.png)  no-repeat;
     background-position:0px -168px;
 }
 
@@ -1160,3 +1157,7 @@ background:#efefef;
   text-shadow: none;
   text-decoration: none;
 }
+
+#tabs{display:none;margin-top:12px;}
+#tabs.ui-tabs{display:block;}
+#capitol-image-wrapper{background:#fff;}

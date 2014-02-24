@@ -89,7 +89,7 @@
   font-size: 14px;
   margin: 15px 0 5px 5px;
   line-height: normal;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* line 99, ../../sass/parallax.scss */
@@ -138,4 +138,20 @@
   width: 170px;
   font-size: 14px;
   color: #666666;
+}
+
+/* line 143, ../../sass/parallax.scss */
+#tabs {
+  display: none;
+  margin-top: 12px;
+}
+
+/* line 144, ../../sass/parallax.scss */
+#tabs.ui-tabs {
+  display: block;
+}
+
+/* line 145, ../../sass/parallax.scss */
+#capitol-image-wrapper {
+  background: #fff;
 }
