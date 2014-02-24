@@ -48,7 +48,7 @@
 			<h1 style="visibility:hidden;position:absolute;top:-2000px;left:-2000px;">MINNESOTA STATECAPTIOL TOUR</h1>
 			<img style="display:block;margin:24px auto;" src="http://stmedia.startribune.com/designimages/capitolHead.png">
 			
-			<iframe frameborder="0" src="http://www.startribune.com/video/246599901.html?embed=true&load_location=Article&article_title=Northern+Lights+2013&article_author=Staff&embed_site=www.startribune.com&section_id=760629&no_ad=true&section_name=Local" name="myspot" scrolling="no" horizontalscrolling="no" allowTransparency="true" verticalscrolling="no" style="border:none 0;width:524px;height:295px;margin:24px auto;display:block;"></iframe>
+			<iframe frameborder="0" src="http://www.startribune.com/video/246818811.html?embed=true&load_location=Article&article_title=Northern+Lights+2013&article_author=Staff&embed_site=www.startribune.com&section_id=760629&no_ad=true&section_name=Local" name="myspot" scrolling="no" horizontalscrolling="no" allowTransparency="true" verticalscrolling="no" style="border:none 0;width:524px;height:295px;margin:24px auto;display:block;"></iframe>
 			
 			<p class="byline">Photographs by Glen Stubbe and David Brewster</p>
 			<p class="byline" style="margin-bottom:24px;">Text by Rachel E. Stassen-Berger</p>
@@ -123,7 +123,7 @@
 		    <p class="body">Long the home of Capitol staff and the Minnesota press, the basement has been gutted, its tenants relocated, and its tunnels rearranged to allow for mechanical work. By the end of the project, the basement area will be opened up to become a show space for visitors: adding an underground rotunda to serve as a public event space, restoring long-closed areas and exposing long painted-over stonework.  The basement is home to the public Rathskeller cafeteria, which has been restored to again show off German phrases along its walls, which will have additional seating added. Many are drinking themed, including "Ein frischer Trank, der Arbeit Dank" translated as "Enjoy a glass after a duty well performed."</p>
 		  
 
-			<div id="rathskellar">
+			<div id="rathskeller">
 				<a href="basement/rathskeller.html" class="overlay cboxElement">
 					<img src="http://stmedia.startribune.com/designimages/space.gif" width='304' height='168'>  
 				</a>
